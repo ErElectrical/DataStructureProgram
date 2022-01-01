@@ -11,6 +11,9 @@ namespace DataStructureDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Data structure sorting Program");
+
+            // Binarysearch ********************************
+
             //BinarySearch dataStructure = new BinarySearch();
             //string[] words = { "decs", "read", "logic", "search" };
             //string data = "search";
@@ -21,9 +24,15 @@ namespace DataStructureDemo
             //else
             //    Console.WriteLine("Word is found at " + result);
 
-            string[] names = { "One", "Two","Three", "Four", "Six","seven" };
-            InsertionSort dataStructure = new InsertionSort();
-            dataStructure.Insertion(names);
+            // InsertionSort **************************************
+
+            //string[] names = { "One", "Two","Three", "Four", "Six","seven" };
+            //InsertionSort dataStructure = new InsertionSort();
+            //dataStructure.Insertion(names);
+
+            BubbleSort sort = new BubbleSort();
+            sort.Bubble();
+
 
 
 
