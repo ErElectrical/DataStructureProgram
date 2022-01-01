@@ -1,4 +1,4 @@
-﻿using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,20 +28,7 @@ namespace DataStructureDemo
 
             //string[] names = { "One", "Two","Three", "Four", "Six","seven" };
             //InsertionSort dataStructure = new InsertionSort();
-            //dataStructure.Insertion(names);
-
-            // Bubble sort ****************************************
-            //BubbleSort sort = new BubbleSort();
-            //sort.Bubble();
-
-            // Anargam Detection *********************************
-
-            DataStructure d = new DataStructure();
-            string str1 = "mummy";
-            string str2 = "yummum";
-            d.Anagrams(str1, str2);
-
-
+            //dataStruct
 
 
         }
