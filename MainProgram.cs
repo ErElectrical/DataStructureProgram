@@ -30,8 +30,16 @@ namespace DataStructureDemo
             //InsertionSort dataStructure = new InsertionSort();
             //dataStructure.Insertion(names);
 
-            BubbleSort sort = new BubbleSort();
-            sort.Bubble();
+            // Bubble sort ****************************************
+            //BubbleSort sort = new BubbleSort();
+            //sort.Bubble();
+
+            // Anargam Detection *********************************
+
+            DataStructure d = new DataStructure();
+            string str1 = "mummy";
+            string str2 = "yummum";
+            d.Anagrams(str1, str2);
 
 
 
