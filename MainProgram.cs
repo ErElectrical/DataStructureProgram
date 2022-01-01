@@ -36,10 +36,16 @@ namespace DataStructureDemo
 
             // Anargam Detection *********************************
 
-            DataStructure d = new DataStructure();
-            string str1 = "mummy";
-            string str2 = "yummum";
-            d.Anagrams(str1, str2);
+            // DataStructure d = new DataStructure();
+            // string str1 = "mummy";
+            // string str2 = "yummum";
+            // d.Anagrams(str1, str2);
+
+            // prime no between 0  to 1000.
+
+            PrimeNo no = new PrimeNo();
+
+            no.Prime(0, 1000);
 
 
 
